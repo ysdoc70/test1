@@ -1,0 +1,94 @@
+# --- Secrets / env ---
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+secrets.toml
+.streamlit/secrets.toml
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+.eggs/
+build/
+dist/
+wheels/
+pip-wheel-metadata/
+*.spec
+
+# --- Virtual envs ---
+.venv/
+venv/
+env/
+ENV/
+.venv-*/
+.python-version
+
+# --- Type / lint / test caches ---
+.mypy_cache/
+.pyright/
+.pytype/
+.ruff_cache/
+.pytest_cache/
+.tox/
+.nox/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+nosetests.xml
+
+# --- Notebooks ---
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# --- Streamlit / app caches ---
+.streamlit/cache/
+.streamlit/logs/
+
+# --- Vector store / temp data ---
+*.faiss
+*.index
+*.pkl
+*.bin
+faiss_index/
+chroma/
+chroma_db/
+tmp/
+temp/
+uploads/
+
+# --- Logs ---
+*.log
+logs/
+*.log.*
+
+# --- OS ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- IDE / Editor ---
+.vscode/
+.idea/
+*.swp
+*.swo
+*.bak
+.cursor/
+.aider*
+.codeium/
+
+# --- Node (혹시 섞여 있을 경우) ---
+node_modules/
+npm-debug.log*
+
+# --- Misc ---
+*.zip
+*.tar.gz
+*.7z

@@ -1,0 +1,28 @@
+# --- Web framework ---
+streamlit>=1.38.0
+
+# --- Env / config ---
+python-dotenv>=1.0.1
+
+# --- OpenAI SDK ---
+openai>=1.42.0
+
+# --- LangChain (v1.x 호환) ---
+langchain>=1.2.0,<2.0
+langchain-core>=1.2.0,<2.0
+langchain-community>=0.4.0,<0.5
+langchain-openai>=1.1.0,<2.0
+langchain-text-splitters>=1.0.0,<2.0
+# LangChain 1.x에서 EnsembleRetriever / create_openai_functions_agent / AgentExecutor 가
+# 분리된 langchain-classic 으로 이동했습니다.
+langchain-classic>=1.0.0
+
+# --- Optional: Perplexity 검색 도구 (try/except 처리됨) ---
+langchain-perplexity
+
+# --- Vector store / Retrievers ---
+faiss-cpu>=1.8.0
+rank-bm25>=0.2.2
+
+# --- PDF 로더 ---
+pypdf>=4.2.0
